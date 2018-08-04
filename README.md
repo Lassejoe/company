@@ -2,7 +2,8 @@
 
 ## Short description
 This project is a combination of Ruby => Sinatra and angularJs.
-The project is a API that contains information about a company and a front-end client.
+The project is a back-ended API that contains information about a company and a front-end client.
+
 A company contains these variables:
 * Company ID (required)
 * Company Name (required)
@@ -18,6 +19,7 @@ You can interact with the Api through the client side https://client-company.her
 Or through cURL commands.
 
 ## cURL commands
+Through these commands it is possible to post/get/patch/delete. all information is stored in a database.
 * Post command: `curl -i -X POST -H "Content-Type: application/json" -d'{"companyID":"<insert variable>", "companyName":"<isert variable>", "address":"<insert variable>", "city":"<insert variable>","country":"<insert variable>","owners":"<insert variable>","email":"<insert variable (optional>","phoneNumber":"<insert variable (optional)>"}' https://morning-headland-92448.herokuapp.com/api/v1/companies`
 
 * Get command: `curl -i -X GET -H "Content-Type: application/json" https://morning-headland-92448.herokuapp.com/api/v1/companies/{companyID}`
