@@ -1,0 +1,7 @@
+production:
+  clients:
+    default:
+      uri: mongodb://lassejoe:quikDishoadnob2@ds259111.mlab.com:59111/companyapi
+      options:
+        skip_version_check: true
+        safe: true

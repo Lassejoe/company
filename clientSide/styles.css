@@ -1,0 +1,37 @@
+#myInput {
+  background-image: url('assets/magnifying_glass.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  height: auto;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#dropdown {
+margin-bottom: 10px;
+height: 50px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+body{
+  padding: 20px;
+
+}
+#deleteButton{
+  background-color: #FF5C58;
+}
+
+.table-wrapper-scroll-y {
+  display: block;
+  max-height: 788px;
+  overflow-y: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
